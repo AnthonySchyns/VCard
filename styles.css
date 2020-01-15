@@ -1,0 +1,39 @@
+html {
+  background-image: url(img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.page {
+  margin: auto;
+}
+.vcard {
+  width: 70%;
+  height: 33%;
+  margin-top: 15%;
+  margin-left: 25%;
+  position: relative;
+}
+.fond {
+  text-align: center;
+  width: 70%;
+  position: absolute;
+  z-index: 1;
+}
+.infos {
+  position: absolute;
+  z-index: 2;
+  left: 18px;
+  top: 31px;
+  font-family: Gabriola, "Gentium Basic", Georgia;
+  font-size: 18px;
+  color: #e98a3b;
+}
+
+.fond2 {
+  position: absolute;
+  left: 370px;
+  top: 40px;
+  width: 180px;
+  height: 180px;
+  z-index: 2;
+}
